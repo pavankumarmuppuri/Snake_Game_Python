@@ -1,3 +1,8 @@
+#GAME STARTS WHEN YOU PRESS ANY ARROW 
+
+
+
+
 import turtle
 import time
 import random
@@ -109,7 +114,7 @@ def check_collision():
         segments.append(new_segment)
 
         # Increase the score
-        score += 10
+        score += 1
         display_score()
 
     # Check for collision with walls
